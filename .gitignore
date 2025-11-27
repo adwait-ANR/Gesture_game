@@ -1,26 +1,12 @@
-# Python cache
 __pycache__/
 *.pyc
-
-# IDE specific
+venv/
 .vscode/
 .idea/
-
-# Virtual environments
-venv/
-env/
-
-# Build artifacts
 dist/
 build/
 *.egg-info/
-
-# OS specific
-Thumbs.db
 .DS_Store
-
-# Matplotlib cache
-.matplotlib/
-
-# Logs
-*.log
+Thumbs.db
+.env
+.pytest_cache/

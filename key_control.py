@@ -61,6 +61,7 @@ else:
         keyboard = Controller()
     except Exception:
         keyboard = None
+    print("the win is not working")
 
     def press_hold(key):
         try:
